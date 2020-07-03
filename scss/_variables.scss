@@ -1,0 +1,19 @@
+:root{
+  --dark: #392d38;
+  --primary: #9c6f84;
+  --secondary: #eeca9d;
+  --radius: 5px;
+}
+
+
+$font1: "Raleway", sans-serif;
+$font2: "Roboto", sans-serif;
+
+
+
+@mixin transition {
+  -ms-transition:0.2s all ease-out;
+  -moz-transition:0.2s all ease-out;
+  -webkit-transition:0.2s all ease-out;
+  transition:0.2s all  ease-out;
+}
