@@ -189,7 +189,7 @@ a.link {
   display: none;
   margin: 0;
   position: fixed;
-  bottom: 250px;
+  bottom: 150px;
   right: 23px;
   width: 35px;
   height: 35px;
@@ -683,6 +683,13 @@ a.link {
   font-weight: 600;
   font-size: 19px;
   margin: 0;
+}
+
+.package-container .package .item-label .inplayer-title h1, .package-container .package .item-label .inplayer-title h2, .package-container .package .item-label .inplayer-title h3, .package-container .package .item-label .inplayer-title h4, .package-container .package .item-label .inplayer-title p {
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
 }
 
 .package-container .package .item-label .buy-btn {
